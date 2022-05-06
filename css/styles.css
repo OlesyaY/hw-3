@@ -1,0 +1,152 @@
+:root {
+    --main-color: #212121;
+    --accent-color: #2196F3;
+    --secondary-color: #757575;
+}
+
+body {
+    color: var(--main-color);
+    font-family: Roboto, sans-serif;
+}
+
+.accent-text {
+    color: var(--accent-color);
+}
+
+.secondary-text {
+    color: var(--secondary-color);
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.link {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.link-logo {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+}
+
+.active {
+    color: var(--accent-color);
+}
+
+/* site nav */
+.list {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+
+.list .link:hover,
+.list .link:focus,
+.address-content .list .link:hover,
+.address-content .list .link:focus {
+    color: var(--accent-color);
+}
+
+.address-content .list .list-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.site-contact .link {
+    color: var(--secondary-color);
+}
+
+/* main section */
+.main-section {
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+.main-section--description {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.main-section--btn {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 1.87;
+    font-family: inherit;
+    background-color: var(--accent-color);
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    font-family: inherit;
+}
+
+.caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.text {
+    line-height: 1.87;
+}
+
+.caption-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.description {
+    line-height: 1.71;
+    font-size: 14px;
+}
+
+.list-name {
+    font-weight: 500;
+    line-height: 1.18;
+}
+
+.position {
+    font-size: 16px;
+    line-height: 1.35;
+}
+
+/* footer */
+.footer-content {
+    background-color: #2F303A;
+}
+
+.address-content {
+    font-style: normal;
+}
+
+.address-content .address-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.link-text {
+    color: #FFFFFF;
+}
