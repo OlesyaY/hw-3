@@ -26,7 +26,6 @@ ul {
 
 }
 
-
 ul {
     list-style: none;
 }
@@ -63,7 +62,6 @@ ul {
     border: unset;
 }
 
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -88,9 +86,6 @@ ul {
 .font-medium {
     font-weight: 500;
 }
-
-
-
 
 .link {
     color: var(--main-color);
@@ -133,8 +128,6 @@ ul {
     color: var(--accent-color);
 }
 
-
-
 .site-nav .item:not(:last-child) {
     margin-right: 40px;
 }
@@ -166,7 +159,6 @@ ul {
 .site-contact .link {
     color: var(--secondary-color);
 }
-
 
 .page-header {
     display: flex;
@@ -220,7 +212,6 @@ ul {
     padding-bottom: 200px;
 
 }
-
 
 .list-menu {
     display: flex;
@@ -278,7 +269,6 @@ ul {
     margin-right: 30px;
 }
 
-
 .main-section--description {
     font-weight: 900;
 
@@ -314,8 +304,6 @@ ul {
     font-family: inherit;
     border: unset;
 }
-
-
 
 .caption {
     font-weight: 700;
