@@ -20,10 +20,14 @@ ul {
 
 
 .conteiner {
-    width: 1230px;
+    width: 1200px;
     padding: 0px 15px;
     margin: 0 auto;
 
+}
+
+.site-header {
+    border-bottom: 1px solid;
 }
 
 ul {
@@ -157,6 +161,7 @@ ul {
 }
 
 .site-contact .link {
+    display: block;
     color: var(--secondary-color);
 }
 
@@ -215,10 +220,12 @@ ul {
 
 .list-menu {
     display: flex;
-    padding-top: 94px;
     margin-block-start: 0px;
     margin-block-end: 0px;
+    padding-inline-start: 0;
 }
+
+
 
 .list-menu .item {
     width: 270px;
@@ -226,9 +233,9 @@ ul {
 
 .list-pic {
     display: flex;
-    padding-bottom: 188px;
     margin-block-start: 0px;
     margin-block-end: 0px;
+    padding-inline-start: 0;
 }
 
 .list-pic .item-pic {
@@ -252,6 +259,7 @@ ul {
     margin-block-start: 0px;
     margin-block-end: 0px;
     padding-bottom: 94px;
+    padding-inline-start: 0;
 }
 
 .list-intro .link-intro {
@@ -271,14 +279,12 @@ ul {
 
 .main-section--description {
     font-weight: 900;
-
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    padding-left: 260px;
-    padding-right: 260px;
-    padding-bottom: 30px;
+    width: 696px;
+    margin: 0 auto 30px auto;
 }
 
 .main-section--btn {
@@ -305,6 +311,10 @@ ul {
     border: unset;
 }
 
+.section-skils {
+    padding-top: 94px;
+}
+
 .caption {
     font-weight: 700;
     font-size: 36px;
@@ -312,13 +322,20 @@ ul {
     text-align: center;
     margin-block-start: 0;
     margin-block-end: 0;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 
 }
 
-.servise {
+.section-service {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
+
+.section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 
 .heading {
     font-weight: 700;
@@ -336,7 +353,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .description {
