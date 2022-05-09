@@ -20,10 +20,9 @@ ul {
 
 
 .conteiner {
-    width: 1230px;
+    width: 1200px;
     padding: 0px 15px;
     margin: 0 auto;
-
 }
 
 ul {
@@ -32,6 +31,7 @@ ul {
 
 .filter-menu {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .filter-menu .list {
@@ -103,10 +103,17 @@ ul {
     text-decoration: none;
 }
 
+
+
 .logo {
-    padding-top: 60px;
-    padding-bottom: 20px;
     display: block;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    font-family: Raleway,
+        sans-serif;
+    text-decoration: none;
 }
 
 .active {
@@ -119,6 +126,10 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     padding-inline-start: 0;
+}
+
+.catalog {
+    margin-bottom: 50px;
 }
 
 .list .link:hover,
@@ -138,7 +149,7 @@ ul {
 }
 
 .top-contact .link {
-    font-display: block;
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -160,25 +171,31 @@ ul {
     color: var(--secondary-color);
 }
 
+.hedbord {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .page-header {
     display: flex;
     align-items: center;
 }
 
+.elements {
+    padding: 20px 24px;
+    border: solid #EEEEEE;
+    border-width: 0px 1px 1px 1px;
+}
+
 .progect-list {
     display: flex;
     flex-wrap: wrap;
+    padding-inline-start: 0px;
 
-}
-
-.products {
-    padding-bottom: 20px;
 }
 
 .progect-item {
     margin-right: 30px;
     margin-bottom: 30px;
-    padding-bottom: 94px;
 }
 
 .progect-item:nth-child(3n) {
@@ -213,11 +230,15 @@ ul {
 
 }
 
+.benefits {
+    padding-top: 94px;
+}
+
 .list-menu {
     display: flex;
-    padding-top: 94px;
     margin-block-start: 0px;
     margin-block-end: 0px;
+    padding-inline-start: 0px;
 }
 
 .list-menu .item {
@@ -226,9 +247,9 @@ ul {
 
 .list-pic {
     display: flex;
-    padding-bottom: 188px;
     margin-block-start: 0px;
     margin-block-end: 0px;
+    padding-inline-start: 0px;
 }
 
 .list-pic .item-pic {
@@ -243,15 +264,21 @@ ul {
     margin-right: 30px;
 }
 
-.photo {
+.desc {
+    padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .list-intro {
     display: flex;
     margin-block-start: 0px;
     margin-block-end: 0px;
-    padding-bottom: 94px;
+    padding-inline-start: 0px;
 }
 
 .list-intro .link-intro {
@@ -276,9 +303,8 @@ ul {
     line-height: 1.36;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    padding-left: 260px;
-    padding-right: 260px;
-    padding-bottom: 30px;
+    width: 696px;
+    margin: 30px auto 0 auto;
 }
 
 .main-section--btn {
@@ -318,6 +344,7 @@ ul {
 
 .servise {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .heading {
@@ -336,7 +363,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .description {
@@ -347,18 +374,21 @@ ul {
 .list-name {
     font-weight: 500;
     line-height: 1.18;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .position {
     font-size: 16px;
     line-height: 1.35;
-    padding-bottom: 30px;
 }
 
 /* footer */
 .footer-content {
     background-color: #2F303A;
+}
+
+.footbar {
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
@@ -370,7 +400,7 @@ ul {
     color: #FFFFFF;
     font-size: 14px;
     line-height: 1.71;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 
@@ -378,6 +408,7 @@ ul {
     color: #FFFFFF;
 }
 
-.info {
-    padding-bottom: 9px;
+
+.info:not(:last-child) {
+    margin-bottom: 9px;
 }
